@@ -1,12 +1,8 @@
--- create table users
--- id int not null auto increment primary key
--- email string of 255 chars not null unique
--- name string of 255 chars
--- country enum of countries US, CO, and TN not null default =US
-
+-- creates a table users
+-- id, email, name, country(enumUS, CO and TN)
 CREATE TABLE IF NOT EXISTS users(
-	id INT NOT NULL PRIMARY KEY AUTO_INCREMENT,
-	email VARCHAR(255) NOT NULL UNIQUE,
-	name VARCHAR(255),
-	country ENUM('US', 'CO', 'TN') NOT NULL
+	id int NOT NULL PRIMARY KEY AUTO_INCREMENT,
+	email varchar(255) NOT NULL UNIQUE,
+	name varchar(255),
+	country ENUM('US', 'CO', 'TN') DEFAULT 'US' NOT NULL
 );
