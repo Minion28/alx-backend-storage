@@ -1,4 +1,4 @@
---create a stored procedure AddBonus that adds a new correction for a student
+-- create a stored procedure AddBonus that adds a new correction for a student
 
 DELIMITER $$
 create procedure AddBonus (user_id int, project_name varchar(255), score float) begin

@@ -1,4 +1,4 @@
---create a trigger that decreases the quantity of an item after adding a new order
+-- create a trigger that decreases the quantity of an item after adding a new order
 
 DELIMITER $$
 create TRIGGER reduce_quantity

@@ -1,8 +1,8 @@
---create table users
---id int not null auto increment primary key
---email string of 255 chars not null unique
---name string of 255 chars
---country enum of countries US, CO, and TN not null default =US
+-- create table users
+-- id int not null auto increment primary key
+-- email string of 255 chars not null unique
+-- name string of 255 chars
+-- country enum of countries US, CO, and TN not null default =US
 
 create table if not exists users (
     id int not null auto_increment primary key,

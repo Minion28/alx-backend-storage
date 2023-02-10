@@ -1,4 +1,4 @@
---create function SafeDiv that dividesthe first by the second number and returns 0 if the second number is 0
+-- create function SafeDiv that dividesthe first by the second number and returns 0 if the second number is 0
 
 DELIMITER $$
 create function SafeDiv (a int, b int)
