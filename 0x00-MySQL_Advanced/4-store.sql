@@ -8,4 +8,4 @@ update items
     set quantity = quantity - NEW.number
     where name = NEW.item_name;
 END $$
-DELIMITER;
+DELIMITER ;
